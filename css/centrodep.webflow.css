@@ -102,7 +102,7 @@ p {
   width: 100%;
   margin-right: 0px;
   margin-left: 0px;
-  background-color: #af4173;
+  background-color: #D49467;
 }
 
 .button.full-width:hover {
@@ -124,6 +124,7 @@ p {
 }
 
 .navigation-link {
+  font-family: 'Aleo', serif;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   color: #676770;
@@ -131,7 +132,7 @@ p {
 }
 
 .navigation-link:hover {
-  color: #af4173;
+  color: #D49467;
 }
 
 .navigation-link.w--current:hover {
@@ -287,8 +288,8 @@ p {
 
 .hollow-button.all-caps {
   margin-top: 23px;
-  border-color: #af4173;
-  color: #af4173;
+  border-color: #676767;
+  color: #676767;
   text-transform: uppercase;
 }
 
@@ -389,17 +390,15 @@ p {
   padding: 20px;
   border: 10px solid #fff;
   border-radius: 50%;
-  background-color: #af4173;
-  box-shadow: 0 0 0 1px #af4173;
+  background-color: #D49467;
+  box-shadow: 0 0 0 1px #D49467;
 }
 
 .info-icon {
   float: left;
 }
 
-.info-icon.instagrama {
-  width: 10%;
-}
+
 
 .footer-link {
   display: block;
@@ -414,7 +413,7 @@ p {
 }
 
 .footer-link:hover {
-  color: #af4173;
+  color: #D49467;
 }
 
 .footer-link.with-icon {
@@ -443,13 +442,13 @@ p {
 .white-text {
   display: block;
   margin-bottom: 0px;
-  color: #af4173;
+  color: #D49467;
   font-size: 16px;
   letter-spacing: 3px;
 }
 
 .white-text._874 {
-  color: #af4173;
+  color: #D49467;
   font-size: 16px;
   letter-spacing: 3px;
 }
@@ -472,20 +471,20 @@ p {
 }
 
 .slide {
-  background-image: url('../images/12.-TERRAZA-VEGETADA-ESCUELA-SIGLO-XXI.jpg');
+  background-image: url('../images/marianojabbaz-objetivo.png');
   background-position: 0px 0px;
   background-size: 2736px;
 }
 
 .slider {
-  height: 700px;
+  height: 600px;
 }
 
 .slide-2 {
-  padding-top: 252px;
-  padding-bottom: 195px;
-  border-bottom: 4px solid #af4173;
-  background-image: url('../images/2banner-centro-dep-01.png');
+  
+  margin-bottom: 195px;
+  border-bottom: 4px solid #D49467;
+  background-image: url('../images/marianojabbaz-slide.png');
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
@@ -498,12 +497,19 @@ p {
 .div-block {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .32)), to(rgba(0, 0, 0, .32))), url('../images/banner-centro-dep-14.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .32), rgba(0, 0, 0, .32)), url('../images/banner-centro-dep-14.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .32)), to(rgba(0, 0, 0, .32))), url('../images/marianojabbaz-objetivo.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .32), rgba(0, 0, 0, .32)), url('../images/marianojabbaz-objetivo.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
   text-align: right;
+}
+
+.destacado {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #7B7B7B;
 }
 
 .paragraph-2 {
@@ -523,7 +529,6 @@ p {
   padding-bottom: 5px;
   font-size: 25px;
   line-height: 45px;
-  font-weight: 700;
 }
 
 .paragraph-2._878 {
@@ -537,7 +542,7 @@ p {
 
 .paragraph-3 {
   color: #192024;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .heading {
@@ -584,9 +589,9 @@ p {
 .sectioncontacto {
   padding-top: 47px;
   padding-bottom: 0px;
-  border-bottom: 4px solid #af4173;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .27)), to(rgba(0, 0, 0, .27))), url('../images/banner-centro-dep-02-06.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .27), rgba(0, 0, 0, .27)), url('../images/banner-centro-dep-02-06.jpg');
+  border-bottom: 4px solid #D49467;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .27)), to(rgba(0, 0, 0, .27))), url('../images/marianojabbaz-contacto.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .27), rgba(0, 0, 0, .27)), url('../images/marianojabbaz-contacto.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -610,7 +615,7 @@ p {
 }
 
 .headerpromociones {
-  border-bottom: 4px solid #af4173;
+  border-bottom: 4px solid #D49467;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/302336-P7N7FM-71.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/302336-P7N7FM-71.jpg');
   background-position: 0px 0px, 50% 45%;
@@ -619,7 +624,7 @@ p {
 }
 
 .headerpromociones.quines-confian-en-nosotros {
-  border-bottom-color: #af4173;
+  border-bottom-color: #D49467;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url('../images/329846-P9LI35-139.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/329846-P9LI35-139.jpg');
   background-position: 0px 0px, 50% 50%;
@@ -649,7 +654,7 @@ p {
 }
 
 .slide-3 {
-  background-image: url('../images/5a4bca179581f2000156119b_raiz-cuadrada4-96.jpg');
+  background-image: url('../images/marianojabbaz-slide2.png');
   background-position: 0px -63px;
   background-size: cover;
 }
@@ -780,63 +785,7 @@ p {
   text-align: center;
 }
 
-.slide-5 {
-  background-image: url('../images/raiz-cuadrada4-99.jpg');
-  background-position: 0px -66px;
-  background-size: cover;
-}
 
-.slide-5.o {
-  background-image: url('../images/5a3aae8280b1bd0001a8bd63_Copia-de-5.GRADAS-ESCUELA-SIGLO-XXI-.jpg');
-}
-
-.slide-5.yy {
-  background-image: url('../images/5a4d1c702b69220001d8ae7c_raiz-cuadrada4-55.jpg');
-}
-
-.slide-6 {
-  background-image: url('../images/5a4bca169581f2000156119a_raiz-cuadrada4-97.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-7 {
-  background-image: url('../images/5a4bca175478f10001890754_raiz-cuadrada4-94.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-8 {
-  background-image: url('../images/raiz-cuadrada4-92.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-9 {
-  background-image: url('../images/raiz-cuadrada4-89.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-10 {
-  background-image: url('../images/raiz-cuadrada4-97.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-10.tee {
-  background-image: url('../images/5a4d1c77e77d7900016a3eaf_raiz-cuadrada4-59.jpg');
-}
-
-.slide-11 {
-  background-image: url('../images/raiz-cuadrada4-57.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.slide-11.uut {
-  background-image: url('../images/5a4d1d6c2b69220001d8aed7_raiz-cuadrada4-60-1.jpg');
-}
 
 .div-block-8 {
   margin-bottom: 40px;
@@ -865,8 +814,8 @@ p {
 .slide-12 {
   padding-top: 195px;
   padding-bottom: 195px;
-  border-bottom: 4px solid #af4173;
-  background-image: url('../images/banner-centro-dep-04-1.jpg');
+  border-bottom: 4px solid #D49467;
+  background-image: url('../images/marianojabbaz-slide2.png');
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
@@ -879,29 +828,9 @@ p {
 .slide-13 {
   padding-top: 195px;
   padding-bottom: 195px;
-  border-bottom: 4px solid #af4173;
-  background-image: url('../images/banner-centro-dep-21.jpg');
+  border-bottom: 4px solid #D49467;
+  background-image: url('../images/marianojabbaz-slide3.png');
   background-position: 44% 50%;
-  background-size: cover;
-  text-align: center;
-}
-
-.slide-14 {
-  padding-top: 195px;
-  padding-bottom: 195px;
-  border-bottom: 4px solid #af4173;
-  background-image: url('../images/banner-centro-dep-07.jpg');
-  background-position: 50% 86%;
-  background-size: cover;
-  text-align: center;
-}
-
-.slide-15 {
-  padding-top: 195px;
-  padding-bottom: 195px;
-  border-bottom: 4px solid #af4173;
-  background-image: url('../images/banner-centro-dep-12.jpg');
-  background-position: 50% 50%;
   background-size: cover;
   text-align: center;
 }
@@ -912,43 +841,6 @@ p {
   line-height: 20px;
 }
 
-.container-3 {
-  padding-top: 0px;
-}
-
-.slide-16 {
-  height: 150px;
-  background-image: url('../images/SLIDER.jpg');
-  background-position: -2px -58px;
-  background-size: cover;
-}
-
-.slider-5 {
-  height: 150px;
-}
-
-.div-block-9 {
-  margin-top: -16px;
-  margin-bottom: 73px;
-}
-
-.mask {
-  height: 150px;
-}
-
-.slide-17 {
-  background-image: url('../images/salider-2.jpg');
-  background-position: 0px -63px;
-  background-size: cover;
-}
-
-.icon {
-  color: rgba(25, 32, 36, .41);
-}
-
-.icon-2 {
-  color: rgba(25, 32, 36, .41);
-}
 
 .paragraph-10 {
   margin-left: 0px;
@@ -1027,7 +919,7 @@ p {
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
   font-size: 28px;
   font-weight: 300;
   text-align: left;
@@ -1035,9 +927,9 @@ p {
 }
 
 .button-2:hover {
-  border: 2px solid #af4173;
+  border: 2px solid #D49467;
   background-color: rgba(37, 204, 191, 0);
-  color: #af4173;
+  color: #D49467;
 }
 
 .div-block-11 {
@@ -2393,7 +2285,7 @@ p {
 
 .heading-13 {
   padding-top: 13px;
-  color: #af4173;
+  color: #D49467;
   font-size: 25px;
   font-weight: 300;
 }
@@ -2410,7 +2302,7 @@ p {
 }
 
 .nav-link:hover {
-  color: #af4173;
+  color: #D49467;
 }
 
 .container-31 {
@@ -2497,14 +2389,14 @@ p {
 }
 
 .link-2 {
-  color: #af4173;
+  color: #D49467;
   text-decoration: none;
 }
 
 .heading-14 {
   padding-top: 30px;
   padding-bottom: 0px;
-  color: #af4173;
+  color: #D49467;
   font-size: 15px;
   line-height: 25px;
   font-weight: 300;
@@ -2673,7 +2565,7 @@ p {
 }
 
 .text-span-29 {
-  color: #af4173;
+  color: #D49467;
 }
 
 .paragraph-34 {
@@ -2702,7 +2594,7 @@ p {
 
 .submit-button {
   border-radius: 5px;
-  background-color: #af4173;
+  background-color: #D49467;
 }
 
 .submit-button:hover {
@@ -2710,7 +2602,7 @@ p {
 }
 
 .success-message-2 {
-  background-color: #af4173;
+  background-color: #D49467;
 }
 
 .text-block-6 {
@@ -2718,11 +2610,11 @@ p {
 }
 
 .field-label {
-  color: #af4173;
+  color: #D49467;
 }
 
 .field-label-2 {
-  color: #af4173;
+  color: #D49467;
 }
 
 .submit-button-2 {
@@ -2732,7 +2624,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
 }
 
 .text-field {
@@ -2778,7 +2670,7 @@ p {
 }
 
 .bold-text-2 {
-  color: #af4173;
+  color: #D49467;
 }
 
 .heading-19 {
@@ -2796,7 +2688,7 @@ p {
 }
 
 .bold-text-3 {
-  color: #af4173;
+  color: #D49467;
   font-weight: 600;
 }
 
@@ -2827,7 +2719,7 @@ p {
   margin-left: auto;
   padding-top: 9px;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
 }
 
 .text-field-6 {
@@ -2847,7 +2739,7 @@ p {
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
   text-align: center;
   letter-spacing: 3px;
 }
@@ -2858,7 +2750,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
   color: #fdfdfd;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -2877,7 +2769,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   border-radius: 7px;
-  background-color: #af4173;
+  background-color: #D49467;
   color: #ecf0f1;
   text-align: center;
   letter-spacing: 1px;
@@ -3003,7 +2895,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     color: rgba(48, 45, 45, .52);
   }
   .navigation-link.w--current {
-    color: #af4173;
+    color: #D49467;
   }
   .hamburger-button.w--open {
     background-color: #fff;
@@ -3771,16 +3663,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .slide-14 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .slide-15 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+ 
   .paragraph-9 {
     font-size: 11px;
   }
@@ -4454,7 +4337,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-top: 1%;
     padding-right: 2%;
     padding-left: 2%;
-    border: 4px solid #af4173;
+    border: 4px solid #D49467;
   }
   .section-4.rejuvenecimientotext._4.d {
     padding-top: 100px;
@@ -4669,7 +4552,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     display: block;
     width: 25%;
     padding: 10px;
-    box-shadow: 0 0 0 1px #af4173;
+    box-shadow: 0 0 0 1px #D49467;
   }
   .grid-image._65 {
     width: 28%;
@@ -5868,7 +5751,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .bold-text-2 {
     display: inline-block;
     overflow: visible;
-    color: #af4173;
+    color: #D49467;
     font-weight: 700;
   }
   .heading-19 {
