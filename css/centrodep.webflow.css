@@ -253,6 +253,16 @@ p {
   text-shadow: none;
 }
 
+.hero-heading._tratamientos {
+
+  padding-bottom: 0px;
+  color: #504e4e;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: none;
+}
+
 .hero-subheading {
   margin-bottom: 40px;
   color: #25ccbf;
@@ -616,8 +626,8 @@ p {
 
 .headerpromociones {
   border-bottom: 4px solid #D49467;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/302336-P7N7FM-71.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/302336-P7N7FM-71.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-tratamientos_2600.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-tratamientos_2600.png');
   background-position: 0px 0px, 50% 45%;
   background-size: auto, cover;
   color: #fff;
@@ -625,8 +635,8 @@ p {
 
 .headerpromociones.quines-confian-en-nosotros {
   border-bottom-color: #D49467;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url('../images/329846-P9LI35-139.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/329846-P9LI35-139.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url('../images/marianojabbaz-tratamientos_2600.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/marianojabbaz-tratamientos_2600.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   color: #fff;
@@ -640,10 +650,14 @@ p {
 }
 
 .container-2 {
-  padding-top: 234px;
+  padding-top: 200px;
   padding-bottom: 117px;
 }
 
+.container-tratamientos {
+  padding-top: 80px;
+  padding-bottom: 117px;
+}
 .container-2.nuevo {
   padding-top: 267px;
   padding-bottom: 149px;
@@ -2469,13 +2483,12 @@ p {
 }
 
 .rejuvenecimientofacial {
-  height: 800px;
+  height: 400px;
   padding-top: 5%;
-  background-image: url('../images/5b312a72f7f0bd58c5062c2f_Sin-título-1-04.jpg');
+  background-image: url('../images/marianojabbaz-rejuvenecimiento-facial.png');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
 }
 
 .tratamientocorporal {
@@ -2505,8 +2518,40 @@ p {
   box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
 }
 
-.medicinamasculina.oie {
-  background-image: url('../images/3120.jpg');
+.medicinaregenerativa {
+  height: 400px;
+  background-image: url('../images/marianojabbaz-medicinaregenerativa.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
+}
+
+.liquidlifting {
+  height: 400px;
+  background-image: url('../images/marianojabbaz-liquid.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
+}
+
+.fraxface {
+  height: 400px;
+  background-image: url('../images/marianojabbaz-fraxface_2000.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
+}
+
+.estetica-masculina {
+  height: 400px;
+  background-image: url('../images/marianojabbaz-esteticamasculina_2000.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
 }
 
 .section-4 {
