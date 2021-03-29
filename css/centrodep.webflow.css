@@ -235,7 +235,7 @@ p {
   color: #fff;
   font-size: 30px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: normal;
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -654,10 +654,17 @@ p {
   padding-bottom: 117px;
 }
 
-.container-tratamientos {
-  padding-top: 80px;
-  padding-bottom: 117px;
+.nurvo section {
+  position: relative;
 }
+
+.container-tratamientos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container-2.nuevo {
   padding-top: 267px;
   padding-bottom: 149px;
@@ -2484,7 +2491,6 @@ p {
 
 .rejuvenecimientofacial {
   height: 400px;
-  padding-top: 5%;
   background-image: url('../images/marianojabbaz-rejuvenecimiento-facial.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -2534,6 +2540,12 @@ p {
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
+  color: white;
+}
+
+.liquidlifting h3{
+  font: oblique;
+  color: white;
 }
 
 .fraxface {
@@ -2552,6 +2564,12 @@ p {
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
+}
+
+
+.bajada-tratamientos{
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
 
 .section-4 {
