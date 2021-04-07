@@ -128,7 +128,7 @@ p {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   color: #676770;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .navigation-link:hover {
@@ -622,6 +622,15 @@ p {
 
 .body {
   background-color: #fff;
+}
+
+.headermasculina {
+  border-bottom: 4px solid #D49467;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-esteticamasculina_2000.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-esteticamasculina_2000.png');
+  background-position: 0px 0px, 50% 45%;
+  background-size: auto, cover;
+  color: #fff;
 }
 
 .headerpromociones {
