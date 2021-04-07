@@ -2215,7 +2215,7 @@ p {
 .section-2 {
   padding-top: 249px;
   padding-bottom: 193px;
-  background-image: url('../images/banner-centro-dep-22.jpg');
+  background-image: url('../images/marianojabbaz-contacto-section.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat-x;
@@ -3297,7 +3297,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     font-size: 13px;
   }
   .section-2 {
-    background-image: url('../images/banner-centro-dep-22.jpg');
+    background-image: url('../images/marianojabbaz-contacto-section.png');
     background-size: cover;
     background-repeat: repeat-x;
     background-attachment: scroll;
@@ -4692,8 +4692,8 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
   .headerpromociones.quines-confian-en-nosotros {
     margin-top: 52px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .43)), to(rgba(0, 0, 0, .43))), url('../images/329846-P9LI35-139.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .43), rgba(0, 0, 0, .43)), url('../images/329846-P9LI35-139.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .43)), to(rgba(0, 0, 0, .43))), url('../images/marianojabbaz-tratamientos_1080.png');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .43), rgba(0, 0, 0, .43)), url('../images/marianojabbaz-tratamientos_1080.png');
     background-position: 0px 0px, 50% 50%;
   }
   .headerpromociones._178 {
@@ -5703,7 +5703,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .rejuvenecimientofacial {
     width: 100%;
     height: 575px;
-    background-image: url('../images/5b312a72f7f0bd58c5062c2f_Sin-título-1-04.jpg');
+    background-image: url('../images/marianojabbaz-rejuvenecimiento-facial_800.png');
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
