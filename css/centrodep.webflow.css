@@ -626,8 +626,8 @@ p {
 
 .headermasculina {
   border-bottom: 4px solid #D49467;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-esteticamasculina_2000.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-esteticamasculina_2000.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-esteticamasculina_1600.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-esteticamasculina_1600.png');
   background-position: 0px 0px, 50% 45%;
   background-size: auto, cover;
   color: #fff;
