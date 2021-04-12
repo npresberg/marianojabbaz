@@ -298,6 +298,7 @@ p {
 
 .hollow-button.all-caps.tratamientos {
   margin-top: 23px;
+  margin-bottom: 75px;
   border-color: #fff;
   color: #fff;
   text-transform: uppercase;
@@ -633,10 +634,20 @@ p {
   background-color: #fff;
 }
 
+.labios {
+  border-bottom: 4px solid #D49467;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-labios_2000.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-labios_2000.png');
+  background-position: 0px 0px, 50% 45%;
+  background-size: auto, cover;
+  color: #fff;
+  height: 600px;
+}
+
 .headermasculina {
   border-bottom: 4px solid #D49467;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-esteticamasculina_1600.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-esteticamasculina_1600.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .19)), to(rgba(0, 0, 0, .19))), url('../images/marianojabbaz-esteticamasculina_800.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .19), rgba(0, 0, 0, .19)), url('../images/marianojabbaz-esteticamasculina_800.png');
   background-position: 0px 0px, 50% 45%;
   background-size: auto, cover;
   color: #fff;
@@ -2518,7 +2529,7 @@ p {
 }
 
 .depilaciondefinitiva {
-  height: 600px;
+  height: 800px;
   background-image: url('../images/5b312a6f6d1ed7525f38cc26_Sin-título-1-03.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -2526,7 +2537,7 @@ p {
 }
 
 .rejuvenecimientofacial {
-  height: 400px;
+  height: 800px;
   background-image: url('../images/marianojabbaz-rejuvenecimiento-facial.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -2551,8 +2562,8 @@ p {
   box-shadow: 33px 0 22px 0 rgba(0, 0, 0, .29);
 }
 
-.botox {
-  height: 600px;
+.headerbotox {
+  height: 800px;
   background-image: url('../images/marianojabbaz-objetivo.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -2561,7 +2572,7 @@ p {
 }
 
 .plasma {
-  height: 400px;
+  height: 800px;
   background-image: url('../images/marianojabbaz-medicinaregenerativa.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -2570,7 +2581,7 @@ p {
 }
 
 .liquidlifting {
-  height: 400px;
+  height: 600px;
   background-image: url('../images/marianojabbaz-liquid.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -2585,7 +2596,7 @@ p {
 }
 
 .fraxface {
-  height: 400px;
+  height: 600px;
   background-image: url('../images/marianojabbaz-fraxface_2000.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -2594,7 +2605,7 @@ p {
 }
 
 .botox {
-  height: 400px;
+  height: 600px;
   background-image: url('../images/marianojabbaz-objetivo.png');
   background-position: 50% 50%;
   background-size: cover;
